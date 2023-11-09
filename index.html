@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="download.png" style="width: 200px; height: 100px;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#sobre">Quem Somos</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#cursos">Cursos</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#profissionais">Profissionais</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#contato">Contato</a>
+              </li>
+
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+              <button class="btn btn-outline-primary" type="submit">Pesquisar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+<main style="width: 90%; display: block; margin-left: 5%;">
+      <!-- slide -->
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://source.unsplash.com/random/?administration" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Administração</h5>
+                <p style="font-weight: 500;">Escolha um trabalho que você ame e não terá que trabalhar um único dia em sua vida.</p>
+              </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="https://source.unsplash.com/random/?informatica" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Técnico em Informática</h5>
+                <p style="font-weight: 500;">A tecnologia aproxima quem está longe e afasta quem está perto! (menos meu pai)</p>
+              </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="https://source.unsplash.com/random/?barber" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Cabeleireiro</h5>
+                <p style="font-weight: 500;">A vida fica ainda mais bonita quando a gente encontra um cabeleireiro em quem a gente confia!</p>
+              </div>
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- quem somos -->
+      <section>
+        <figure class="text-center mt-5">
+            <blockquote class="blockquote fst-bold">
+              <p id="sobre"> <strong>O que seria o Google Outlet??</strong></p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+              <p style="color: black;">Google LLC é uma empresa multinacional de softwares e serviços online fundada em 1998 na cidade norte-americana de Menlo Park, que lucra principalmente através da publicidade pelo AdWords. A Google é a principal subsidiária da Alphabet Inc.</p>
+            </figcaption>
+          </figure>
+      </section>
+
+      <!-- cursos  -->
+      <div class="row row-cols-1 row-cols-md-3 g-4 mt-5" id="cursos">
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://source.unsplash.com/random/?cabeleireiro" class="card-img-top" alt="..." style="max-height: 380px;">
+            <div class="card-body">
+              <h5 class="card-title">Curso de cabeleireiro</h5>
+              <p class="card-text">O caminho para uma carreira brilhante começa com um curso de cabeleireiro excepcional</p>
+              <button class="btn btn-outline-success" type="submit">Sobre</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://source.unsplash.com/random/?excel" class="card-img-top" alt="..." style="max-height: 380px;">
+            <div class="card-body">
+              <h5 class="card-title">Curso de Excel Avançado</h5>
+              <p class="card-text">Domine o Excel Avançado e destaque-se em sua carreira profissional! Inscreva-se agora</p>
+              <button class="btn btn-outline-success" type="submit">Sobre</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://source.unsplash.com/random/?administrador&1" class="card-img-top" alt="..." style="max-height: 380px;">
+            <div class="card-body">
+              <h5 class="card-title">Curso para Adm</h5>
+              <p class="card-text">Invista em seu futuro com nosso curso de Administração e conquiste uma carreira de sucesso</p>
+              <button class="btn btn-outline-success" type="submit">Sobre</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://source.unsplash.com/random/?programação" class="card-img-top" alt="..." style="max-height: 380px;">
+            <div class="card-body">
+              <h5 class="card-title">Curso de programação</h5>
+              <p class="card-text">Desbloqueie seu potencial criativo e profissional com nosso curso de programação. Aprenda a criar soluções digitais inovadoras e conquiste o futuro!</p>
+              <button class="btn btn-outline-success" type="submit">Sobre</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100">
+              <img src="https://source.unsplash.com/random/?marketing" class="card-img-top" alt="..." style="max-height: 380px;">
+              <div class="card-body">
+                <h5 class="card-title">Curso de Marketing</h5>
+                <p class="card-text">Aprenda as estratégias de marketing mais eficazes e impulsione o sucesso do seu negócio conosco!</p>
+                <button class="btn btn-outline-success" type="submit">Sobre</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://source.unsplash.com/random/?fotografo" class="card-img-top" alt="..." style="max-height: 380px;">
+              <div class="card-body">
+                <h5 class="card-title">Curso de Fotografo</h5>
+                <p class="card-text"> Desenvolva suas habilidades fotográficas conosco e transforme momentos em memórias eternas</p>
+                <button class="btn btn-outline-success" type="submit">Sobre</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://source.unsplash.com/random/?doces" class="card-img-top" alt="..." style="max-height: 380px;">
+              <div class="card-body">
+                <h5 class="card-title">Curso de Confeiteiro</h5>
+                <p class="card-text">Aprenda a arte da confeitaria conosco e transforme seus doces sonhos em realidade!</p>
+                <button class="btn btn-outline-success" type="submit">Sobre</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://source.unsplash.com/random/?nutrition" class="card-img-top" alt="..." style="max-height: 380px;">
+              <div class="card-body">
+                <h5 class="card-title">Curso de Nutricionista</h5>
+                <p class="card-text"> Transforme sua paixão por saúde e bem-estar em uma carreira gratificante. Matricule-se no nosso curso de Nutrição agora!</p>
+                <button class="btn btn-outline-success" type="submit">Sobre</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://source.unsplash.com/random/?ingles" class="card-img-top" alt="..." style="max-height: 380px;">
+              <div class="card-body">
+                <h5 class="card-title">Curso de ingles/espanhol</h5>
+                <p class="card-text"> Faça parte da nossa comunidade de aprendizado e alcance seus objetivos linguísticos</p>
+                <button class="btn btn-outline-success" type="submit">Sobre</button>
+              </div>
+            </div>
+          </div>
+
+      </div>
+</main>
+  
+<section>
+    <footer class="text-center bg-dark p-4 mt-3 " id="contato">
+        <p style="color: white; width: 100%;">&copy; João Vinicius. "Rei do Kudueiro"</p>
+        <p style="color: white;">Av. Brig. Faria Lima, 3477 - 18º Andar - Itaim Bibi, São Paulo - SP.</p>
+        <p style="color: white;">Tel: (11) 2395-8400.</p>
+        <p style="color: white;">Email:  google@gmail.com</p>
+
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14625.95447666929!2d-46.6821519!3d-23.5868031!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5744e0ebff5b%3A0x769bf4a32f914782!2sGoogle!5e0!3m2!1spt-BR!2sbr!4v1699473135023!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </footer>
+</section>
+
+</body>
+</html>

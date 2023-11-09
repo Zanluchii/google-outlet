@@ -1,0 +1,31 @@
+.carousel-item{
+    height: 500px;
+}
+
+.carousel-item img{
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+.card-img-top{
+    height: 80%;
+    border: 2px solid rgb(50, 7, 7);
+    object-position: center;
+    
+}
+
+.col img{
+    transition: transform 0.2s;
+    cursor: pointer;
+    object-position: center;
+}
+
+.col img:hover{
+    transform: scale(1.1);
+    object-position: center;
+}
+
+body{
+    background-color: rgb(92, 119, 110);
+}
